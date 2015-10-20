@@ -1,0 +1,25 @@
+# SwiftPlayGround
+
+The project is used for learning swift
+
+Open the *.playground file in Xcode6.4 or higher version to see the running result
+
+##Learning Plan
+
+- 基本数据类型
+-- 数值类型
+-- 字符串
+-- 枚举
+-- 元组
+
+- 可选
+
+- 协议和扩展
+
+- 函数和闭包
+
+- 泛型
+
+- 类
+
+

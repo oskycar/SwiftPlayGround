@@ -27,6 +27,10 @@ let hexadecimalInteger = 0x11
 let decimalDouble = 12.1875
 let exponentDouble = 1.21875e1
 let hexadecimalDouble = 0xC.3p0
+//十六进制小数的计算方式:将12.1875，分成整数和小数部分,分别计算12和0.1875对应的表示
+//整数部分用整数的16进制计算，小数部分用xpy的方式计算，xpy = x*(1/16)*2^y
+//因此12.1875 = 12 + 3p0 = 12+ 3*(1/16)*2^0  ；注意是用3乘而不是0.3
+var kk = 3.0/16
 
 //整数和浮点数可以包含额外的0和下划线以增强可读性，并且不影响字面量
 let paddedDouble = 000123.456
